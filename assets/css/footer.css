@@ -1,0 +1,23 @@
+.footer{
+    height: 20vh;
+    background-color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.footer p {
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+.copy{
+    text-align: center;
+}
+.bxl-figma, 
+.bxl-github{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,57 @@
+.menu-content {
+    background: #161D29;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+  
+  }
+  
+.home-button{
+    border: 1px solid #0F9AFE;
+    filter: drop-shadow(1px 3px 10px rgba(17, 37, 56, 0.5));
+    border-radius: 50px;
+}
+  
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+  
+.menu ul li a {
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #007aff;
+    position: relative;
+    transition:all 0.3s ease;
+}
+  
+.menu ul li a:hover{
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.menu-logo a {
+    padding: 1rem;
+    color: #007aff;
+}
+
+.logo-content{
+    display: inline-block;
+    position: relative;
+}
+
+.bxs-moon{
+    color: #007aff;
+    background-color: #161D29;
+    background: #161D29;
+}
